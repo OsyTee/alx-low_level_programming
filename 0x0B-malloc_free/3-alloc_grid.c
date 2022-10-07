@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -18,7 +18,7 @@ int *p;
 
 if (width <= 0 || height <= 0)
 return (NULL);
-matrix = (int **)malloc(height * sizeof(int *));
+matrix = (int **) malloc(height * sizeof(int *));
 if (matrix == NULL)
 return (NULL);
 for (i = 0; i < height; i++)
